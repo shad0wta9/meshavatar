@@ -4,6 +4,6 @@
 
 <sup>1</sup>Tsinghua Univserity <sup>2</sup>NNKosmos Technology
 
-### [Projectpage](https://shad0wta9.github.io/meshavatar-page/) · [Paper]() · Video (Coming Soon)
+### [Projectpage](https://shad0wta9.github.io/meshavatar-page/) · [Paper](https://arxiv.org/pdf/2407.08414) · Video (Coming Soon)
 
 Coming Soon.
