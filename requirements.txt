@@ -1,0 +1,10 @@
+# opencv-python
+# scikit-image
+# lpips
+# smplx
+# scipy
+# open3d
+# trimesh
+
+numpy==1.25.2
+git+https://github.com/mattloper/chumpy
