@@ -19,6 +19,7 @@ pip install ninja imageio PyOpenGL glfw xatlas gdown
 pip install git+https://github.com/NVlabs/nvdiffrast/
 pip install --global-option="--no-networks" git+https://github.com/NVlabs/tiny-cuda-nn#subdirectory=bindings/torch
 imageio_download_bin freeimage
+
 pip install -r requirements.txt
 ```
 
@@ -51,7 +52,7 @@ cd ../..
 ## Data Organization
 
 ### AvatarReX Dataset [[link]](https://github.com/lizhe00/AnimatableGaussians/blob/master/AVATARREX_DATASET.md)
-Directly download the dataset. If you want to reproduce the experimetns in the paper, please resize the images to `1024x750` first, due to the limited GPU Memory.
+Directly download the dataset. If you want to reproduce the experiments in the paper, please resize the images to `1024x750` first, due to the limited GPU Memory.
 
 ### SyntheticHuman++ Dataset [[link]](https://github.com/zju3dv/animatable_nerf)
 Since our code only supports SMPL-X model, we have converted the parameters [here](https://drive.google.com/drive/folders/1DRlVlb618zVNfFm7bEgRbafUndJVnrB9?usp=sharing) (using [the official transfer model](https://github.com/vchoutas/smplx/tree/main/transfer_model)).
