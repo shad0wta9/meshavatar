@@ -416,7 +416,7 @@ if __name__ == "__main__":
     #  Create data pipeline
     # ==============================================================================================
     if os.path.isfile(os.path.join(FLAGS.data_dir, 'calibration_full.json')):
-        if os.path.isfile(os.path.join(FLAGS.data_dir, 'whole.pt')):
+        if os.path.isfile(os.path.join(FLAGS.data_dir, 'smpl_params.npz')):
             dataset_train    = DatasetSMPL(FLAGS.data_dir, glctx, FLAGS, validate=False)
             dataset_validate = DatasetSMPL(FLAGS.data_dir, glctx, FLAGS, validate=True)
         else:
